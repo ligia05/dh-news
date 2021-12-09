@@ -1,0 +1,20 @@
+main{
+   width: 1000px;
+height: 600px;
+    background-color: rgb(161, 168, 166);
+    padding: 20x;
+    margin-left: auto;
+    margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+main > div > img{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
